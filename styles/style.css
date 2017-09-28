@@ -1,0 +1,27 @@
+body {
+	margin: auto;
+	padding: 10px;
+	background-color: lightgreen;
+}
+
+body {
+	text-align: center;
+	font-family: "Goldsmith";
+	font-size: large;
+	font-color: red;
+}
+footer {
+	text-align: center;
+	font-family: "barn";
+	font-size: large;
+}	
+
+@font-face {
+    font-family: "Goldsmith";
+    src: url("../fonts/The Goldsmith_Vintage.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Barn";
+    src: url("../fonts/barn.otf") format("opentype");
+}
